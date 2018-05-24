@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
     int = value.to_i
     if int < smallest
      smallest = int
-     print smallest
+     print int
     end
   end
   puts name_hash.key(smallest)
