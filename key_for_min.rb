@@ -7,7 +7,6 @@ def key_for_min_value(name_hash)
   
   smallest = 1
   for value in values
-  print value
     if value < smallest
      smallest = value
      print smallest
