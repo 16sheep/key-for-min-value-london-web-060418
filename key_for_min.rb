@@ -3,11 +3,14 @@
 
 def key_for_min_value(name_hash)
   values = name_hash.collect {|key, value| value}
+  print values
   
   smallest = 1
   for value in values
+  print value
     if value < smallest
-     smallest =  value
+     smallest = value
+     print smallest
     end
   end
   puts name_hash.key(smallest)
